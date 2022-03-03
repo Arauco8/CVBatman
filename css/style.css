@@ -1,6 +1,6 @@
 header {
     text-align: center;
-    background-color: rgb(110, 110, 117);
+    background-color: rgb(189, 189, 194);
 }
 
 #fotoPerfil {
@@ -13,6 +13,7 @@ h1{
     text-transform: uppercase;
     text-align: center;
     margin-top: 1%;
+    background-color: rgb(110, 110, 117);
 }
 
 h3 {
@@ -23,7 +24,10 @@ h3 {
 
 ul{
     background-color: white;
-    margin:auto; 
+}
+
+#ulLi{
+    list-style: none;
 }
 
 main {
@@ -41,13 +45,13 @@ footer{
 }
 
 p#subtitle {
-    margin:auto; 
-    
+    margin-top: 0%;
+    margin-left: 6.7%;
 }
+
 
 p#footer {
     text-align: center;
-    font-weight: bold;
     font-size: 20px;
     line-height: 84.69%;
     margin-top: 0.4%;
@@ -66,4 +70,5 @@ a.imgFooter {
 span{
     margin: 3px;
     padding: 3px;
+    font-weight: bold;
 }
